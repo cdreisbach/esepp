@@ -478,12 +478,12 @@ int main(int argc, char **argv)
 {
 
 // Initial values for the flags:
-flag_quick = false;   // Flag to speed up the calculations
-flag_init = false;    // Flag to set the number of events for initialization
-flag_info = false;    // Flag to print additional information
-flag_vepp = false;    // Flag to generate events for the VEPP-3 experiment
-flag_target = false;  // Flag to work with a storage cell
-flag_warn = false;    // Flag indicating the presence/absence of warnings
+flag_quick  = false; // Flag to speed up the calculations
+flag_init   = false; // Flag to set the number of events for initialization
+flag_info   = false; // Flag to print additional information
+flag_vepp   = false; // Flag to generate events for the VEPP-3 experiment
+flag_target = false; // Flag to work with a storage cell
+flag_warn   = false; // Flag indicating the presence/absence of warnings
 
 
 //----------------------------------------------------------------------------------------------

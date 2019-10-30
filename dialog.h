@@ -181,7 +181,7 @@ while (1)
       {
       flag_vpol = 3;
       
-      fvpol = fopen("vpol.dat", "r"); // Opening the file "vpol.dat"
+      fvpol = fopen("../vpol.dat", "r"); // Opening the file "vpol.dat"
       if (fvpol == NULL) { std::cout << " Can't open file \"vpol.dat\"!" << std::endl; return EXIT_FAILURE; }
       
       break;
@@ -231,7 +231,7 @@ while (1)
   else
     {
     E_li = atof(mychar)/1000.;
-    if (E_li > m && E_li <= 20.) break;
+    if (E_li > m && E_li <= 200.) break;
     else { std::cout << " Wrong input! Try again: " << std::flush; continue; }
     }
   }
